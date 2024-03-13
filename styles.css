@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+header {
+    background-color: #3E3932;
+    color: #FBF7E6;
+    padding: 10px;
+    text-align: center;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.logo-container img {
+    max-width: 5%;
+    max-height: 5%;
+}
+
+nav {
+    background-color: #3E3932;
+    text-align: center;
+}
+
+.navbar {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #FBF7E6;
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+.navbar a:hover {
+    color: #8A3C51;
+}
+
+/* ... (previous code) ... */
+
+.parallax-section {
+    height: 500px; /* Adjust the height as needed */
+    background-image: url('PubBackground.jpg'); /* Add your background image URL */
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.parallax-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #FBF7E6;
+}
+
+/* ... (other styles remain unchanged) ... */
+
+
+
+
+
+
+
+
+/* Dark Background Section */
+.dark-section {
+    background-color: #243643; /* Dark background color */
+    color: #FBF7E6;
+    padding: 20px; /* Adjust the padding as needed */
+}
+
+.dark-content {
+    text-align: center;
+}
+
+/* ... (remaining code) ... */
+
+
+
+/* Add this class for controlling the logo size */
+.resizable-logo {
+    max-width: 100%; /* Ensures the logo doesn't exceed its container */
+    max-height: 200px; /* Adjust the maximum height as needed */
+}
